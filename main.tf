@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "us-east-1"
+}
 variable "region" (
 description = "AS region"
 default= "ap-southeast-2"
